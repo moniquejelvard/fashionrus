@@ -1,0 +1,122 @@
+body{
+    background-color: grey;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*---------------------------- HEADER ----------------------------*/
+header a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 7rem;
+    margin-top: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+h1 span{
+    color: pink;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+header h1{
+    margin-bottom: 0;
+}
+
+/*---------------------------- TEKST ----------------------------*/
+h2{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 0rem;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+    line-height: 0.5;
+}
+
+a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*---------------------------- PRODUKT ----------------------------*/
+#produkt_container{
+    display: flex;
+    justify-content: center;
+}
+
+#produkt_item{
+    background-color: pink;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*---------------------------- KATEGORIER ----------------------------*/
+#kategori_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem 10rem;
+}
+
+#kategori_item{
+    background-color: pink;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#kategori_item a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*---------------------------- PRODUKTLISTE ----------------------------*/
+#produktliste_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+#produktliste_item{
+    background-color: pink;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#produktliste_container a{
+    text-decoration: none;
+}
+
+#produktliste_item p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*---------------------------- EFFEKTER ----------------------------*/
+.udsolgt{
+    opacity: 60%;
+}
+
+.rabat{
+
+}
